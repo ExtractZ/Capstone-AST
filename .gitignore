@@ -1,0 +1,48 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Secrets and local settings ---
+.env
+*.env
+*.local.yaml
+secrets.*
+
+# --- Runtime data (run logs, databases) ---
+*.db
+*.sqlite
+*.sqlite3
+logs/
+*.log
+
+# --- Klipper ---
+# Klipper writes timestamped backups when SAVE_CONFIG runs
+printer-*.cfg
+klipper/*.bak
+
+# --- CAD temporary and lock files ---
+~$*
+*.bak
+*.tmp
+*.FCBak
+*.SLDPRT.bak
+*.f3d.tmp
+
+# --- OS and editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
